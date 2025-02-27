@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="">
   <head>
     <meta charset="UTF-8">
@@ -11,4 +11,102 @@
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Inicio - STRONGER</title>
+  <link rel="stylesheet" href="./src/assets/styles.css">
+  <link rel="shortcut icon" href="./src/assets/fAVICONST.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body >
+  <header>
+    <div class="logo"><a href="index.html"></a>
+      <img class="logo" src="./src/assets/logoSTR.png" alt="Logo de la empresa">
+    </div>
+    <button class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav>
+      <ul>
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="background-animation">
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+    <div class="cube"></div>
+  </div>
+  <main>
+    <h1 class="h1trabajadores">Nuestros Servicios</h1>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://scontent.fasu11-1.fna.fbcdn.net/v/t39.30808-6/480536484_122211830018211547_5330741023459915774_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VO3lsBI9f7gQ7kNvgFafP1g&_nc_oc=AdiJYmHMAAvX7EeYydgRxQ2lVzGlU5UFc1z76wq3yUQBz5zSZjqkgJaJH7gz-thk2EFm55npvhNNEAB9Uxxsxosu&_nc_zt=23&_nc_ht=scontent.fasu11-1.fna&_nc_gid=AchX-cinlcS-ZMr7NWHDTQT&oh=00_AYDDfel4y_KNo2eESnDnJ-T0xgb4pubAnBtGe03UCMoZaA&oe=67C65BC8">
+        <h2>DIRECCION TECNICA</h2>
+        <p>Área: Deporte</p>
+        <p></p>
+        <button 
+          onclick="location.href='contacto.html?trabajador=Juan%20Pérez&area=Plomería'">
+          Adquirir ya!
+        </button>
+      </div> 
+      <div class="card">
+        <img src="https://scontent.fasu11-1.fna.fbcdn.net/v/t39.30808-6/480536484_122211830018211547_5330741023459915774_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VO3lsBI9f7gQ7kNvgFafP1g&_nc_oc=AdiJYmHMAAvX7EeYydgRxQ2lVzGlU5UFc1z76wq3yUQBz5zSZjqkgJaJH7gz-thk2EFm55npvhNNEAB9Uxxsxosu&_nc_zt=23&_nc_ht=scontent.fasu11-1.fna&_nc_gid=AchX-cinlcS-ZMr7NWHDTQT&oh=00_AYDDfel4y_KNo2eESnDnJ-T0xgb4pubAnBtGe03UCMoZaA&oe=67C65BC8">
+        <h2>DIRECCION TECNICA</h2>
+        <p>Área: Deporte</p>
+        <p></p>
+        <button 
+          onclick="location.href='contacto.html?trabajador=Juan%20Pérez&area=Plomería'">
+          Adquirir ya!
+        </button>
+      </div> 
+      <div class="card">
+        <img src="https://scontent.fasu11-1.fna.fbcdn.net/v/t39.30808-6/480536484_122211830018211547_5330741023459915774_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VO3lsBI9f7gQ7kNvgFafP1g&_nc_oc=AdiJYmHMAAvX7EeYydgRxQ2lVzGlU5UFc1z76wq3yUQBz5zSZjqkgJaJH7gz-thk2EFm55npvhNNEAB9Uxxsxosu&_nc_zt=23&_nc_ht=scontent.fasu11-1.fna&_nc_gid=AchX-cinlcS-ZMr7NWHDTQT&oh=00_AYDDfel4y_KNo2eESnDnJ-T0xgb4pubAnBtGe03UCMoZaA&oe=67C65BC8">
+        <h2>DIRECCION TECNICA</h2>
+        <p>Área: Deporte</p>
+        <p></p>
+        <button 
+          onclick="location.href='contacto.html?trabajador=Juan%20Pérez&area=Plomería'">
+          Adquirir ya!
+        </button>
+      </div> 
+      <div class="card">
+        <img src="https://scontent.fasu11-1.fna.fbcdn.net/v/t39.30808-6/480536484_122211830018211547_5330741023459915774_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VO3lsBI9f7gQ7kNvgFafP1g&_nc_oc=AdiJYmHMAAvX7EeYydgRxQ2lVzGlU5UFc1z76wq3yUQBz5zSZjqkgJaJH7gz-thk2EFm55npvhNNEAB9Uxxsxosu&_nc_zt=23&_nc_ht=scontent.fasu11-1.fna&_nc_gid=AchX-cinlcS-ZMr7NWHDTQT&oh=00_AYDDfel4y_KNo2eESnDnJ-T0xgb4pubAnBtGe03UCMoZaA&oe=67C65BC8">
+        <h2>DIRECCION TECNICA</h2>
+        <p>Área: Deporte</p>
+        <p></p>
+        <button 
+          onclick="location.href='contacto.html?trabajador=Juan%20Pérez&area=Plomería'">
+          Adquirir ya!
+        </button>
+      </div> 
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <p> STRONGER CONSULTING INTERNATIONAL - Todos los derechos reservados </p>
+  </footer>
+  <script>
+    // Función para alternar el menú móvil
+    function toggleMenu() {
+      const nav = document.querySelector('nav');
+      const hamburger = document.querySelector('.hamburger');
+      nav.classList.toggle('show');
+      hamburger.classList.toggle('active');
+    }
+  </script>
+</body>
 </html>
