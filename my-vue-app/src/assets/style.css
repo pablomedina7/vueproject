@@ -1,0 +1,188 @@
+/* ==============================
+   ESTILOS GENERALES
+   ============================== */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #0b28aa;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* ==============================
+     NAVBAR
+     ============================== */
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    padding: 15px 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ==============================
+     PÁGINAS INDIVIDUALES
+     ============================== */
+  
+  /* Página de Inicio */
+  .home {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .home h1 {
+    color: #ffffff;
+    font-size: 36px;
+  }
+  
+  .home p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Página de Cursos */
+  .cursos {
+    padding: 30px;
+  }
+  
+  .cursos h1 {
+    font-size: 28px;
+    color: #007bff;
+  }
+  
+  .curso-item {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Página de Detalle del Curso */
+  .curso-detalle {
+    padding: 30px;
+  }
+  
+  .curso-detalle h1 {
+    font-size: 28px;
+    color: #007bff;
+  }
+  
+  .curso-detalle p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Página de Contacto */
+  .contacto {
+    padding: 30px;
+  }
+  
+  .contacto h1 {
+    font-size: 28px;
+    color: #007bff;
+  }
+  
+  .contacto form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contacto input,
+  .contacto textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Página del Carrito */
+  .carrito {
+    padding: 30px;
+  }
+  
+  .carrito h1 {
+    font-size: 28px;
+    color: #007bff;
+  }
+  
+  /* ==============================
+     RESPONSIVE DESIGN (CELULARES)
+     ============================== */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+  
+    .home h1 {
+      font-size: 28px;
+      color: #ffffff;
+    }
+  
+    .home p {
+      font-size: 16px;
+      color: #ffffff;
+    }
+  
+    .cursos h1,
+    .curso-detalle h1,
+    .contacto h1,
+    .carrito h1 {
+      font-size: 24px;
+    }
+  
+    .curso-item {
+      padding: 10px;
+    }
+  
+    .contacto input,
+    .contacto textarea {
+      font-size: 16px;
+    }
+  }
+.imagen {
+    flex: auto;
+    width: 100;
+    height: 100vh;
+    margin: 0% 10%;
+  }  
+
+  .title{
+    text-align: center;
+  }
+  .subtitle{
+    text-align: center;
+
+  }

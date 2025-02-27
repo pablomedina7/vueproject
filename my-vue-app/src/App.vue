@@ -1,12 +1,12 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router';
+import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
   <div>
-    <h1>¡Hola desde Vue!</h1>
-    <p>Esta es una prueba de conexión.</p>
+    <NavBar />
+    <router-view />
   </div>
 </template>
 
