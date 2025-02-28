@@ -246,7 +246,7 @@
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
-    box-shadow: 4px 3px 5px 3px #d9cece;
+    box-shadow: 1px 1px 2px 2px #e4e4e4;
   }
   .card img {
     max-width: 18rem;
